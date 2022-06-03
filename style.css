@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.landingpage{
+    background-image: url("");
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover{
+    border-bottom: 0.3em solid #E94C4C;
+    transition: 0.5s;
+}
+
+header{
+    z-index: 9999999999;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    height: 10em;
+}
+
+.logo{
+    height: 8em;
+    width: auto;
+}
