@@ -23,6 +23,7 @@ nav ul li a{
 nav ul li a:hover{
     border-bottom: 0.3em solid #E94C4C;
     transition: 0.5s;
+    color: #0b2e13;
 }
 /*******nav controlls */
 .nav-pills .nav-link.active{
