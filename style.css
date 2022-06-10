@@ -24,6 +24,23 @@ nav ul li a:hover{
     border-bottom: 0.3em solid #E94C4C;
     transition: 0.5s;
 }
+/*******nav controlls */
+.nav-pills .nav-link.active{
+    background-color: green;
+}
+
+
+.nav-pills .nav-link{
+    color: black;
+}
+/***************Bilder gallerie*/
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+
+.carousel-indicators [data-bs-target]{
+    color: black;
+}
 
 header{
     z-index: 9999999999;
