@@ -72,4 +72,8 @@ header{
     margin-bottom: 40px;
 }
 
-
+.alignmentnav{
+   text-align: right;
+   horiz-align: right;
+    position: relative;
+}
