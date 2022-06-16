@@ -73,7 +73,5 @@ header{
 }
 
 .alignmentnav{
-   text-align: right;
-   horiz-align: right;
-    position: relative;
+text-align: right;
 }
