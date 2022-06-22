@@ -73,7 +73,8 @@ header{
 }
 
 .alignmentnav{
-text-align: right;
+    display: flex;
+    text-align: right;
 }
 .headersecpage{
     margin-top: 50px;
@@ -88,7 +89,8 @@ text-align: right;
 margin-right: 80px;
     margin-left: 80px;
 
-
-
 }
-
+.centered-text{
+    display: flex;
+    justify-content: center;
+}
