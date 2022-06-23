@@ -43,6 +43,7 @@ nav ul li a:hover{
     color: black;
 }
 
+
 header{
     z-index: 9999999999;
     position: sticky;
@@ -51,8 +52,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #fff;
     height: 10em;
+    background-color: #5E7667;
+    color: white;
+    box-shadow: #000 0 10px 50px;
 }
 
 .logo{
@@ -67,6 +70,7 @@ header{
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 20mm;
+    margin-top: 40px;
 }
 .margindown{
     margin-bottom: 40px;
@@ -93,4 +97,15 @@ margin-right: 80px;
 .centered-text{
     display: flex;
     justify-content: center;
+}
+
+.bildercards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.lead{
+    margin-top: 4em;
 }
