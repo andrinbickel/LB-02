@@ -52,7 +52,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    height: 10em;
+    height: 8em;
     background-color: #5E7667;
     color: white;
     box-shadow: #000 0 10px 50px;
@@ -116,9 +116,6 @@ margin-right: 80px;
 }
 
 .alignmentnav{
-    display: flex!important;
-    justify-content: center!important;
-    align-items: center!important;
-    justify-items: center!important;
-    width: 50%!important;
+    width: 60%!important;
+    justify-content: flex-end!important;
 }
