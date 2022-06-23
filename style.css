@@ -119,3 +119,6 @@ margin-right: 80px;
     width: 60%!important;
     justify-content: flex-end!important;
 }
+.card {
+    margin: 0 5px 10px 5px;
+}
