@@ -118,10 +118,26 @@ margin-right: 80px;
 .alignmentnav{
     width: 60%!important;
     justify-content: flex-end!important;
+    text-align: right;
 }
 .card {
     margin: 0 5px 10px 5px;
 }
 .ctext {
     font-size: smaller;
+}
+.titolo{
+    padding-left: 125px;
+    font-size: 22px;
+    color: #e2dcdc;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.dropdown-header{
+    color: #9fcdff;
+}
+.dropdown-item{
+    color: #e2dcdc;
 }
