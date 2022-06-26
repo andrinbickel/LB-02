@@ -122,3 +122,6 @@ margin-right: 80px;
 .card {
     margin: 0 5px 10px 5px;
 }
+.ctext {
+    font-size: smaller;
+}
