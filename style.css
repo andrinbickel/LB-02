@@ -15,15 +15,12 @@ nav{
 
 }
 .navbar{
+    --bs-navbar-hover-color: #3b3b3b;
  --bs-navbar-color: white;
 }
 .navbar-brand{
     --bs-navbar-color: grey;
 
-}
-.nav ul li a:hover {
-    border-bottom: 0.2em solid white;
-    color: white;
 }
 .bg-light {
 --bs-bg-opacity: 0;
@@ -34,9 +31,9 @@ font-size: 1.5em;
 }
 
 nav ul li a:hover{
-border-bottom: 0.3em solid #E94C4C;
+border-bottom: 0.3em solid #FFFFFF;
 transition: 0.5s;
-color: #0b2e13;
+color: #FFFFFF;
 }
 /*******nav controlls */
 .nav-pills .nav-link.active{
