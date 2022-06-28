@@ -52,14 +52,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    height: 8em;
-    background-color: #5E7667;
+    height: 7.5em;
+    background-color: #475b4a;
+    opacity: 85%;
     color: white;
-    box-shadow: #000 0 10px 50px;
-}
+    box-shadow: #000 0 3px 15px;
 
+}
+header:hover{
+    opacity: 100%;
+}
 .logo{
-    height: 6.5em;
+    height: 6em;
     width: auto;
 }
 .continuoustext{
@@ -127,7 +131,7 @@ margin-right: 80px;
     font-size: smaller;
 }
 .titolo{
-    padding-left: 123px;
+    margin-left: 5px;
     font-size: 22px;
     color: #e2dcdc;
 }
