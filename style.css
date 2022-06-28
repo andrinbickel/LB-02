@@ -31,9 +31,9 @@ font-size: 1.5em;
 }
 
 nav ul li a:hover{
-border-bottom: 0.3em solid #FFFFFF;
+border-bottom: 0.3em solid #000;
 transition: 0.5s;
-color: #FFFFFF;
+color: #000;
 }
 /*******nav controlls */
 .nav-pills .nav-link.active{
