@@ -15,30 +15,36 @@ nav{
 
 }
 .navbar{
-    --bs-navbar-hover-color: #3b3b3b;
+    --bs-navbar-hover-color: #FFF473;
  --bs-navbar-color: white;
     font-size: 15px;
 }
-.navbar-brand{
-    --bs-navbar-color: grey;
-    font-size: 20px;
-}
-.navhome{
 
+.navbar .aktuell{
+    color: #FFF473;
 }
+
+.navbar-brand{
+    --bs-navbar-color: white;
+    font-size: 20px;
+    color: white;
+}
+
 .bg-light {
 --bs-bg-opacity: 0;
 }
+
 nav ul li a{
 text-decoration: none;
 font-size: 1.5em;
 }
 
 nav ul li a:hover{
-border-bottom: 0.3em solid #000;
+border-bottom: 0.3em solid #FFF473;
 transition: 0.5s;
-color: #000;
+color: #FFF473;
 }
+
 /*******nav controlls */
 .nav-pills .nav-link.active{
     background-color: green;
@@ -70,13 +76,10 @@ header{
     padding: 15px 30px;
     height: 7.5em;
     background-color: #475b4a;
-    opacity: 90%;
     box-shadow: #000 0 3px 15px;
 
 }
-header:hover{
-    opacity: 100%;
-}
+
 .logo{
     height: 6em;
     width: auto;
@@ -126,6 +129,14 @@ margin-right: 80px;
     justify-items: center;
 }
 
+.bildercards2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
 .lead{
     margin-top: 4em;
 }
@@ -160,4 +171,15 @@ margin-right: 80px;
 }
 .dropdown-item{
     color: #e2dcdc;
+}
+
+@media  screen and (max-width: 1200px) {
+    .bildercards2{
+        display: flex !important;
+    }
+
+    .bildercards{
+        display: none !important;
+    }
+    
 }
