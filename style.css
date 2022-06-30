@@ -104,17 +104,15 @@ header{
 }
 
 .headersecpage{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 40px 120px 40px 40px;
     display: flex;
-   justify-content: center;
+   justify-content: left;
 }
 .secpagestxt{
     display: flex;
-    text-align: center;
-    align-items: center;
-margin-right: 80px;
-    margin-left: 80px;
+    text-align: left;
+    margin: 0 120px 0 40px;
+
 
 }
 .centered-text{
@@ -182,4 +180,8 @@ margin-right: 80px;
         display: none !important;
     }
     
+}
+videops{
+    margin: 50px 0 40px 0;
+
 }
