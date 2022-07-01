@@ -30,6 +30,11 @@ nav{
     color: white;
 }
 
+.navbar-brand:hover{
+    --bs-navbar-color: #FFF473;
+    color: #FFF473;
+}
+
 .bg-light {
 --bs-bg-opacity: 0;
 }
@@ -104,11 +109,17 @@ header{
 
 }
 
-.headersecpage{
-    margin: 40px 120px 40px 40px;
+h3{
     display: flex;
-   justify-content: left;
+    justify-items: flex-start;
+    justify-content: flex-start;
 }
+
+.videomargin{
+    margin: 40px 120px 40px 40px;
+
+}
+
 .secpagestxt{
     display: flex;
     text-align: left;
@@ -191,3 +202,31 @@ header{
     justify-content: left;
     margin: 40px 120px 65px 95px;
 }
+/*********************** hintergrund animation */
+.bganimation {
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+            -45deg,
+            #475B4A 0%,
+            #526955 25%,
+            #83A889 51%,
+            #3E5C43 100%
+    );
+    animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+footer{
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+

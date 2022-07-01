@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/Loris-Bird.html" beforeDir="false" afterPath="$PROJECT_DIR$/Loris-Bird.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Monkey.html" beforeDir="false" afterPath="$PROJECT_DIR$/Monkey.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wild-Cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Wild-Cat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
       <workItem from="1655992747646" duration="2534000" />
       <workItem from="1655995375624" duration="54000" />
       <workItem from="1656683139985" duration="232000" />
+      <workItem from="1656684368027" duration="2078000" />
     </task>
     <servers />
   </component>
