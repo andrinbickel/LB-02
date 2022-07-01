@@ -101,6 +101,7 @@ header{
 }
 .margindown{
     margin-bottom: 40px;
+
 }
 
 .headersecpage{
@@ -184,4 +185,9 @@ header{
 .videops{
     margin: 50px 0 40px 0;
 
+}
+.idk{
+    display: flex;
+    justify-content: left;
+    margin: 40px 120px 65px 65px;
 }
